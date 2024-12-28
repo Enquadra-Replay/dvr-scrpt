@@ -5,8 +5,8 @@ FROM node:18-alpine
 WORKDIR /usr/src/app
 
 # Copia apenas o package.json e o package-lock.json
-COPY package.json ./usr/src/app
-COPY package-lock.json ./usr/src/app
+COPY package*.json ./
+
 COPY . .
 # Instala as dependências
 RUN npm install

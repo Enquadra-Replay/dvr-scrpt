@@ -1,7 +1,7 @@
 services:
   ms-script-dvr:
     build:
-      context: contextPath
+      context: .
       dockerfile: Dockerfile
     container_name: dvr_server
     working_dir: /usr/src/app

@@ -18,4 +18,4 @@ RUN npm install
 EXPOSE 3000
 
 # Comando para iniciar o servidor
-CMD ["npm","run", "start"]
+CMD ["node", "intelbras.js"]

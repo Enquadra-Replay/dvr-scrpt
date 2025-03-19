@@ -15,7 +15,7 @@ RUN npm install
 
 
 # Exponha a porta da aplicação
-EXPOSE 3000
+EXPOSE 3001
 
 # Comando para iniciar o servidor
 CMD ["node", "intelbras.js"]
